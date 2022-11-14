@@ -178,7 +178,7 @@ div.box a {
     padding: 20px;
 }
 
-.banner2-text {
+.banner-text {
     text-align: left;
     display: grid;
     place-content: center;
@@ -186,12 +186,12 @@ div.box a {
     padding: 20px;
     color: #000;
 }
-div.banner2-text > h2 + p {
+div.banner-text > h2 + p {
     margin-top: 10px;
 }
 
 
-.banner2 {
+.banner {
     min-height: 200px;
     margin: 80px 0;
     background-color: #f1f2f3;
@@ -206,6 +206,13 @@ div.banner2-text > h2 + p {
 .btn-banner:hover {
     background-color: #0035e9;
     transition: background-color 0.25s ease-in-out;
+}
+
+div.banner-text > h2 {
+    text-decoration: underline;
+    text-decoration-color: var(--app-golden);
+    text-underline-offset: 2px;
+    text-underline-position: under;
 }
 
 /* -------------------------------*/
