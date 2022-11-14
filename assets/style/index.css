@@ -100,7 +100,7 @@ div .title p {
     translate: 0px -10px;
 }
 
-.btn {
+.btn , .btn-contact{
     margin-top: 30px;
     font-size: 15px;
     font-weight: 400;
@@ -116,7 +116,7 @@ div .title p {
     cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover , .btn-contact:hover {
     background-color: var(--app-golden-hover);
     transition: background-color 0.1s ease-in-out;
 }
@@ -174,45 +174,45 @@ div.box a {
 /*  Call to action                */
 /* -------------------------------*/
 
-.banner2-bg {
+.contact-section {
     padding: 20px;
 }
 
-.banner2-text {
+.banner-text {
     text-align: left;
+    display: grid;
+    place-content: center;
     margin-left: 10px;
     padding: 20px;
-    color: #fff;
+    color: #000;
 }
-div.banner2-text > h2 + p {
+div.banner-text > h2 + p {
     margin-top: 10px;
 }
 
 
-.banner2 {
+.banner {
     min-height: 200px;
     margin: 80px 0;
     background-color: #f1f2f3;
     text-align: center;
+    display: flex;
 }
 
-.btn-banner {
+.btn-contact {
     margin: 10px 0;
-    font-size: 15px;
-    display: inline-block;
-    text-align: center;
-    line-height: 40px;
-    width: 140px;
-    border-radius: 50px;
-    border: 1px solid #3865FF;
-    background-color: #3865FF;
-    color: #fff;
-    cursor: pointer;
     text-decoration: none;
 }
 .btn-banner:hover {
     background-color: #0035e9;
     transition: background-color 0.25s ease-in-out;
+}
+
+div.banner-text > h2 {
+    text-decoration: underline;
+    text-decoration-color: var(--app-golden);
+    text-underline-offset: 2px;
+    text-underline-position: under;
 }
 
 /* -------------------------------*/
