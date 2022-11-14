@@ -47,3 +47,157 @@ div .title p {
     width: 150px;
     height: 150px;
 }
+
+/* -------------------------------*/
+/*  Service Section              */
+/* -------------------------------*/
+
+
+.projects,
+.me,
+.contact-me {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: var(--app-green);
+    text-underline-offset: 2px;
+    text-underline-position: under;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    height: 200px;
+    font-size: 30px;
+}
+
+.column-text {
+    font-size: 26px;
+}
+
+.column-bg {
+    background-color: #f0f1f2;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.section-columns {
+    margin: 80px 0;
+}
+
+.column {
+    flex-grow: 1;
+    width: calc(25% - 15px);
+    border-radius: 6px;
+    box-shadow: 0px 20px 48px 0px rgb(0 0 0 / 0.2);
+    transition: all 0.25s ease-in-out;
+}
+
+.column:hover {
+    translate: 0px -10px;
+}
+
+.btn2,
+.more {
+    margin-top: 30px;
+    font-size: 15px;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    width: 140px;
+    border-radius: 50px;
+    border: 1px solid --app-green;
+    background-color: var(--app-green);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn2:hover,
+.more:hover {
+    background-color: #0035e9;
+    transition: background-color 0.1s ease-in-out;
+}
+
+
+
+
+.one {
+    background-color: #fff;
+}
+
+.two {
+    background-color: #fff;
+}
+
+.three {
+    background-color: #fff;
+}
+
+.four {
+    background-color: #fff;
+}
+
+.box {
+    margin-left: 10px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.box>h2,
+p {
+    margin-top: 10px;
+}
+
+div.box>div+p {
+    margin-top: 10px;
+}
+
+
+.card-icon,
+.card-icon2,
+.card-icon3,
+.card-icon4 {
+    width: 40px;
+    line-height: 40px;
+}
+
+.card-icon i {
+    color: #3ADC87;
+    line-height: 40px;
+    background-color: #e1faec;
+    border-radius: 20%;
+    padding: 8px;
+}
+
+.card-icon2 i {
+    color: #38c9ff;
+    line-height: 40px;
+    background-color: #e9f9ff;
+    border-radius: 20%;
+    padding: 8px;
+
+}
+
+.card-icon3 i {
+    color: #ffd238;
+    line-height: 40px;
+    background-color: #fff5d5;
+    border-radius: 20%;
+    padding: 8px;
+
+}
+
+.card-icon4 i {
+    color: #ff3865;
+    line-height: 40px;
+    background-color: #ffd5de;
+    border-radius: 20%;
+    padding: 8px;
+
+}
