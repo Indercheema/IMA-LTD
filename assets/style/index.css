@@ -42,3 +42,8 @@ div .title h1 {
 div .title p {
     font-size: 25px;
 }
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
