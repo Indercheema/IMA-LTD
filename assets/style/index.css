@@ -13,6 +13,7 @@
     --app-blue: #3c57ff;
     --app-blue-hover: #364ee6;
     --app-golden: #ceb700;
+    --app-golden-hover: #baa600;
    }
 
 
@@ -24,7 +25,7 @@
 .projects , .me , .contact-me {
     color: #000;
     text-decoration: underline;
-    text-decoration-color: var(--app-green);
+    text-decoration-color: var(--app-golden);
     text-underline-offset: 2px;
     text-underline-position: under;
     text-align: center;
@@ -64,7 +65,7 @@
     translate: 0px -10px;
 }
 
-.btn2, .more {
+.btn {
     margin-top: 30px;
     font-size: 15px;
     font-weight: 400;
@@ -76,12 +77,12 @@
     border-radius: 6px;
     border: 1px solid var(--app-golden);
     background-color: var(--app-golden);
-    color: #000;
+    color: #fff;
     cursor: pointer;
 }
 
-.btn:hover , .btn2:hover , .more:hover{
-    background-color: #0035e9;
+.btn:hover {
+    background-color: var(--app-golden-hover);
     transition: background-color 0.1s ease-in-out;
 }
 
@@ -103,7 +104,6 @@
 }
 
 .box {
-    /* margin-left: 10px; */
     text-align: left;
     padding: 20px;
     margin-top: 20px;
