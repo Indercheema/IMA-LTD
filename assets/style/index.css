@@ -12,56 +12,17 @@
     --app-orange: #ff833c;
     --app-blue: #3c57ff;
     --app-blue-hover: #364ee6;
-<<<<<<< HEAD
     --app-golden: #ceb700;
     --app-golden-hover: #baa600;
    }
-=======
-}
->>>>>>> main
 
-
-/* -------------------hero-banner-overlapped-content----------------------- */
-div .title {
-    margin-inline: auto;
-    color: #fafafa;
-    text-decoration: solid;
-    text-shadow: 0px 2px 2px #352a4f;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    animation: trans 0.5s ease-in;
-}
-
-div .title figure img {
-    box-shadow: none;
-}
-
-div .title h1 {
-    font-size: 40px;
-    font-weight: 600;
-}
-
-div .title p {
-    font-size: 25px;
-}
-
-.logo {
-    width: 150px;
-    height: 150px;
-}
 
 /* -------------------------------*/
 /*  Service Section              */
 /* -------------------------------*/
 
 
-.projects,
-.me,
-.contact-me {
+.projects , .me , .contact-me {
     color: #000;
     text-decoration: underline;
     text-decoration-color: var(--app-golden);
@@ -69,7 +30,7 @@ div .title p {
     text-underline-position: under;
     text-align: center;
     align-items: center;
-    display: grid;
+    display: grid; 
     height: 200px;
     font-size: 30px;
 }
@@ -77,7 +38,6 @@ div .title p {
 .column-text {
     font-size: 26px;
 }
-
 .column-bg {
     background-color: #f0f1f2;
     padding: 20px;
@@ -105,12 +65,7 @@ div .title p {
     translate: 0px -10px;
 }
 
-<<<<<<< HEAD
 .btn {
-=======
-.btn2,
-.more {
->>>>>>> main
     margin-top: 30px;
     font-size: 15px;
     font-weight: 400;
@@ -126,15 +81,8 @@ div .title p {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .btn:hover {
     background-color: var(--app-golden-hover);
-=======
-.btn:hover,
-.btn2:hover,
-.more:hover {
-    background-color: #0035e9;
->>>>>>> main
     transition: background-color 0.1s ease-in-out;
 }
 
@@ -144,7 +92,6 @@ div .title p {
 .one {
     background-color: #fff;
 }
-
 .two {
     background-color: #fff;
 }
@@ -152,7 +99,6 @@ div .title p {
 .three {
     background-color: #fff;
 }
-
 .four {
     background-color: #fff;
 }
@@ -164,16 +110,14 @@ div .title p {
     margin-bottom: 20px;
 }
 
-div.box>h2,
-p {
+div.box > h2 , p {
     margin-top: 10px;
 }
 
-div.box>div+p {
+div.box > div + p  {
     margin-top: 10px;
 }
 
-<<<<<<< HEAD
 img {
     width: 100%;
     height: 300px;
@@ -263,48 +207,5 @@ div.box a {
     .column1 , .column2 {
         width: 100%;
     }
-=======
-
-.card-icon,
-.card-icon2,
-.card-icon3,
-.card-icon4 {
-    width: 40px;
-    line-height: 40px;
-}
-
-.card-icon i {
-    color: #3ADC87;
-    line-height: 40px;
-    background-color: #e1faec;
-    border-radius: 20%;
-    padding: 8px;
-}
-
-.card-icon2 i {
-    color: #38c9ff;
-    line-height: 40px;
-    background-color: #e9f9ff;
-    border-radius: 20%;
-    padding: 8px;
-
-}
-
-.card-icon3 i {
-    color: #ffd238;
-    line-height: 40px;
-    background-color: #fff5d5;
-    border-radius: 20%;
-    padding: 8px;
-
-}
-
-.card-icon4 i {
-    color: #ff3865;
-    line-height: 40px;
-    background-color: #ffd5de;
-    border-radius: 20%;
-    padding: 8px;
->>>>>>> main
 
 }
