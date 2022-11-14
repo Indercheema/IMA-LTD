@@ -24,19 +24,19 @@
 /* ----------------------------------------------- */
 
 .hero-banner {
-    background-image: url(../img/anthony-delanoix-b5POxb2aL9o-unsplash.jpg);
+    background-image: url(../img/christina-wocintechchat-com-vzfgh3RAPzM-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: 100% 100%;
-    height: 50vh;
+    height: 60vh;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
 }
 
 .overlap-hero-banner {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background-color: rgba(94, 91, 98, 0.6);
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px -16px 10px -10px;
