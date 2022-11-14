@@ -174,15 +174,17 @@ div.box a {
 /*  Call to action                */
 /* -------------------------------*/
 
-.banner2-bg {
+.contact-section {
     padding: 20px;
 }
 
 .banner2-text {
     text-align: left;
+    display: grid;
+    place-content: center;
     margin-left: 10px;
     padding: 20px;
-    color: #fff;
+    color: #000;
 }
 div.banner2-text > h2 + p {
     margin-top: 10px;
@@ -194,6 +196,7 @@ div.banner2-text > h2 + p {
     margin: 80px 0;
     background-color: #f1f2f3;
     text-align: center;
+    display: flex;
 }
 
 .btn-banner {
