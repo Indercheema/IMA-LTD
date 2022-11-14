@@ -12,15 +12,50 @@
     --app-orange: #ff833c;
     --app-blue: #3c57ff;
     --app-blue-hover: #364ee6;
-   }
+}
 
+
+/* -------------------hero-banner-overlapped-content----------------------- */
+div .title {
+    margin-inline: auto;
+    color: #fafafa;
+    text-decoration: solid;
+    text-shadow: 0px 2px 2px #352a4f;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: trans 0.5s ease-in;
+}
+
+div .title figure img {
+    box-shadow: none;
+}
+
+div .title h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+div .title p {
+    font-size: 25px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
 
 /* -------------------------------*/
 /*  Service Section              */
 /* -------------------------------*/
 
 
-.projects , .me , .contact-me {
+.projects,
+.me,
+.contact-me {
     color: #000;
     text-decoration: underline;
     text-decoration-color: var(--app-green);
@@ -28,7 +63,7 @@
     text-underline-position: under;
     text-align: center;
     align-items: center;
-    display: grid; 
+    display: grid;
     height: 200px;
     font-size: 30px;
 }
@@ -36,6 +71,7 @@
 .column-text {
     font-size: 26px;
 }
+
 .column-bg {
     background-color: #f0f1f2;
     padding: 20px;
@@ -63,7 +99,8 @@
     translate: 0px -10px;
 }
 
-.btn2, .more {
+.btn2,
+.more {
     margin-top: 30px;
     font-size: 15px;
     display: inline-block;
@@ -78,7 +115,9 @@
     cursor: pointer;
 }
 
-.btn:hover , .btn2:hover , .more:hover{
+.btn:hover,
+.btn2:hover,
+.more:hover {
     background-color: #0035e9;
     transition: background-color 0.1s ease-in-out;
 }
@@ -89,6 +128,7 @@
 .one {
     background-color: #fff;
 }
+
 .two {
     background-color: #fff;
 }
@@ -96,6 +136,7 @@
 .three {
     background-color: #fff;
 }
+
 .four {
     background-color: #fff;
 }
@@ -108,19 +149,24 @@
     margin-bottom: 20px;
 }
 
-div.box > h2 , p {
+div.box>h2,
+p {
     margin-top: 10px;
 }
 
-div.box > div + p  {
+div.box>div+p {
     margin-top: 10px;
 }
 
 
-.card-icon, .card-icon2, .card-icon3, .card-icon4 {
+.card-icon,
+.card-icon2,
+.card-icon3,
+.card-icon4 {
     width: 40px;
     line-height: 40px;
 }
+
 .card-icon i {
     color: #3ADC87;
     line-height: 40px;
@@ -135,7 +181,7 @@ div.box > div + p  {
     background-color: #e9f9ff;
     border-radius: 20%;
     padding: 8px;
- 
+
 }
 
 .card-icon3 i {
@@ -144,14 +190,14 @@ div.box > div + p  {
     background-color: #fff5d5;
     border-radius: 20%;
     padding: 8px;
-  
+
 }
+
 .card-icon4 i {
     color: #ff3865;
     line-height: 40px;
     background-color: #ffd5de;
     border-radius: 20%;
     padding: 8px;
-   
+
 }
- 
