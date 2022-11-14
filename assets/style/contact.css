@@ -11,3 +11,135 @@
     --app-golden: #ceb700;
     --app-golden-hover: #baa600;
 }
+
+
+.container {
+    width: min(100% - 30px, 1380px);
+    margin-inline: auto;
+}
+
+
+/* ----------------------------------------------- */
+/*               HERO BANNER                       */
+/* ----------------------------------------------- */
+
+.hero-banner {
+    background-image: url(../img/anthony-delanoix-b5POxb2aL9o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 50vh;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
+}
+
+.overlap-hero-banner {
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(94, 91, 98, 0.6);
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px -16px 10px -10px;
+}
+
+/* ----------------------------------------------- */
+/*               HEADER                       */
+/* ----------------------------------------------- */
+header {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    position: absolute;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.heading h1 {
+    color: #f0f2f4;
+    font-size: 30px;
+}
+
+.heading {
+    margin: 10px 0;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+.heading,
+nav {
+    width: 50%;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fafafa;
+    transition: color 0.25s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #fafafa;
+    box-shadow: 0px 1px 0px #fafafa;
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+nav li+li {
+    margin-left: 10px;
+}
+
+.bar-menu {
+    color: #fafafa;
+    display: none;
+}
+
+@keyframes trans {
+    from {
+        opacity: 0;
+        transform: translatey(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatey(0px);
+    }
+}
+
+div .title {
+    margin-inline: auto;
+    color: #fafafa;
+    text-decoration: solid;
+    text-shadow: 0px 2px 2px #352a4f;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: trans 0.5s ease-in;
+}
+
+div .title figure img {
+    box-shadow: none;
+}
+
+div .title h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+div .title p {
+    font-size: 25px;
+}
