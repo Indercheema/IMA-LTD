@@ -56,9 +56,7 @@ div .title p {
 /* -------------------------------*/
 
 
-.projects,
-.me,
-.contact-me {
+.projects , .about-us {
     color: #000;
     text-decoration: underline;
     text-decoration-color: var(--app-golden);
@@ -170,6 +168,51 @@ img {
 
 div.box a {
     text-decoration: none;
+}
+
+/* -------------------------------*/
+/*  Call to action                */
+/* -------------------------------*/
+
+.banner2-bg {
+    padding: 20px;
+}
+
+.banner2-text {
+    text-align: left;
+    margin-left: 10px;
+    padding: 20px;
+    color: #fff;
+}
+div.banner2-text > h2 + p {
+    margin-top: 10px;
+}
+
+
+.banner2 {
+    min-height: 200px;
+    margin: 80px 0;
+    background-color: #f1f2f3;
+    text-align: center;
+}
+
+.btn-banner {
+    margin: 10px 0;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    width: 140px;
+    border-radius: 50px;
+    border: 1px solid #3865FF;
+    background-color: #3865FF;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-banner:hover {
+    background-color: #0035e9;
+    transition: background-color 0.25s ease-in-out;
 }
 
 /* -------------------------------*/
