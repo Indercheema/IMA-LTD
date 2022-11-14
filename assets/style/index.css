@@ -53,17 +53,15 @@ div .title p {
 /* -------------------------------*/
 
 
-.projects,
-.me,
-.contact-me {
+.projects , .me , .contact-me {
     color: #000;
     text-decoration: underline;
-    text-decoration-color: var(--app-green);
+    text-decoration-color: var(--app-golden);
     text-underline-offset: 2px;
     text-underline-position: under;
     text-align: center;
     align-items: center;
-    display: grid;
+    display: grid; 
     height: 200px;
     font-size: 30px;
 }
@@ -71,7 +69,6 @@ div .title p {
 .column-text {
     font-size: 26px;
 }
-
 .column-bg {
     background-color: #f0f1f2;
     padding: 20px;
@@ -99,26 +96,24 @@ div .title p {
     translate: 0px -10px;
 }
 
-.btn2,
-.more {
+.btn {
     margin-top: 30px;
     font-size: 15px;
+    font-weight: 400;
     display: inline-block;
     list-style: none;
     text-align: center;
     line-height: 40px;
     width: 140px;
-    border-radius: 50px;
-    border: 1px solid --app-green;
-    background-color: var(--app-green);
+    border-radius: 6px;
+    border: 1px solid var(--app-golden);
+    background-color: var(--app-golden);
     color: #fff;
     cursor: pointer;
 }
 
-.btn:hover,
-.btn2:hover,
-.more:hover {
-    background-color: #0035e9;
+.btn:hover {
+    background-color: var(--app-golden-hover);
     transition: background-color 0.1s ease-in-out;
 }
 
@@ -128,7 +123,6 @@ div .title p {
 .one {
     background-color: #fff;
 }
-
 .two {
     background-color: #fff;
 }
@@ -136,68 +130,113 @@ div .title p {
 .three {
     background-color: #fff;
 }
-
 .four {
     background-color: #fff;
 }
 
 .box {
-    margin-left: 10px;
     text-align: left;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-div.box>h2,
-p {
+div.box > h2 , p {
     margin-top: 10px;
 }
 
-div.box>div+p {
+div.box > div + p  {
     margin-top: 10px;
 }
 
-
-.card-icon,
-.card-icon2,
-.card-icon3,
-.card-icon4 {
-    width: 40px;
-    line-height: 40px;
+img {
+    width: 100%;
+    height: 300px;
+    border-radius: 6px;
+    background-size: container;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.card-icon i {
-    color: #3ADC87;
-    line-height: 40px;
-    background-color: #e1faec;
-    border-radius: 20%;
-    padding: 8px;
+
+div.box a {
+    text-decoration: none;
 }
 
-.card-icon2 i {
-    color: #38c9ff;
-    line-height: 40px;
-    background-color: #e9f9ff;
-    border-radius: 20%;
-    padding: 8px;
+/* -------------------------------*/
+/* Media Query                    */
+/* -------------------------------*/
 
-}
 
-.card-icon3 i {
-    color: #ffd238;
-    line-height: 40px;
-    background-color: #fff5d5;
-    border-radius: 20%;
-    padding: 8px;
+/* 
+  1280px and down
+*/
+
+@media (max-width: 1281px) {
+    .column {
+        width: calc(50% - 10px)
+    }
 
 }
 
-.card-icon4 i {
-    color: #ff3865;
-    line-height: 40px;
-    background-color: #ffd5de;
-    border-radius: 20%;
-    padding: 8px;
+
+/* 
+  980px and down
+*/
+
+@media (max-width: 980px) {
+    .column1 , .column2 {
+        width: 100%;
+    }
+
+}
+
+
+/* 
+  768px and down
+*/
+
+@media (max-width: 768px) {
+    .column {
+        width: calc(50% - 10px)
+    }
+    .box > h2 {
+        font-size: 22px;
+    }
+
+    .box > p {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 11px;
+    }
+
+    .box > h2 {
+        font-size: 22px;
+    }
+
+    .box > p {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 11px;
+    }
+
+    
+
+}
+    
+
+/* 
+  480px and down
+*/
+
+@media (max-width: 480px) {
+    .column {
+        width: 100%;
+    }
+    .column1 , .column2 {
+        width: 100%;
+    }
 
 }
