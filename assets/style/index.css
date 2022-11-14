@@ -22,7 +22,7 @@
 /* -------------------------------*/
 
 
-.projects , .me , .contact-me {
+.projects , .about-us {
     color: #000;
     text-decoration: underline;
     text-decoration-color: var(--app-golden);
