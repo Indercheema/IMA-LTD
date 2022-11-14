@@ -100,7 +100,7 @@ div .title p {
     translate: 0px -10px;
 }
 
-.btn {
+.btn , .btn-contact{
     margin-top: 30px;
     font-size: 15px;
     font-weight: 400;
@@ -116,7 +116,7 @@ div .title p {
     cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover , .btn-contact:hover {
     background-color: var(--app-golden-hover);
     transition: background-color 0.1s ease-in-out;
 }
@@ -199,18 +199,8 @@ div.banner2-text > h2 + p {
     display: flex;
 }
 
-.btn-banner {
+.btn-contact {
     margin: 10px 0;
-    font-size: 15px;
-    display: inline-block;
-    text-align: center;
-    line-height: 40px;
-    width: 140px;
-    border-radius: 50px;
-    border: 1px solid #3865FF;
-    background-color: #3865FF;
-    color: #fff;
-    cursor: pointer;
     text-decoration: none;
 }
 .btn-banner:hover {
