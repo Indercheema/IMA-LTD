@@ -14,7 +14,41 @@
     --app-blue-hover: #364ee6;
     --app-golden: #ceb700;
     --app-golden-hover: #baa600;
-   }
+}
+
+
+/* -------------------hero-banner-overlapped-content----------------------- */
+div .title {
+    margin-inline: auto;
+    color: #fafafa;
+    text-decoration: solid;
+    text-shadow: 0px 2px 2px #352a4f;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: trans 0.5s ease-in;
+}
+
+div .title figure img {
+    box-shadow: none;
+}
+
+div .title h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+div .title p {
+    font-size: 25px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
 
 
 /* -------------------------------*/
@@ -22,7 +56,9 @@
 /* -------------------------------*/
 
 
-.projects , .me , .contact-me {
+.projects,
+.me,
+.contact-me {
     color: #000;
     text-decoration: underline;
     text-decoration-color: var(--app-golden);
@@ -30,7 +66,7 @@
     text-underline-position: under;
     text-align: center;
     align-items: center;
-    display: grid; 
+    display: grid;
     height: 200px;
     font-size: 30px;
 }
@@ -38,6 +74,7 @@
 .column-text {
     font-size: 26px;
 }
+
 .column-bg {
     background-color: #f0f1f2;
     padding: 20px;
@@ -92,6 +129,7 @@
 .one {
     background-color: #fff;
 }
+
 .two {
     background-color: #fff;
 }
@@ -99,6 +137,7 @@
 .three {
     background-color: #fff;
 }
+
 .four {
     background-color: #fff;
 }
@@ -110,11 +149,12 @@
     margin-bottom: 20px;
 }
 
-div.box > h2 , p {
+div.box>h2,
+p {
     margin-top: 10px;
 }
 
-div.box > div + p  {
+div.box>div+p {
     margin-top: 10px;
 }
 
@@ -154,7 +194,9 @@ div.box a {
 */
 
 @media (max-width: 980px) {
-    .column1 , .column2 {
+
+    .column1,
+    .column2 {
         width: 100%;
     }
 
@@ -169,32 +211,35 @@ div.box a {
     .column {
         width: calc(50% - 10px)
     }
-    .box > h2 {
+
+    .box>h2 {
         font-size: 22px;
     }
 
-    .box > p {
+    .box>p {
         font-size: 14px;
     }
+
     .btn {
         font-size: 11px;
     }
 
-    .box > h2 {
+    .box>h2 {
         font-size: 22px;
     }
 
-    .box > p {
+    .box>p {
         font-size: 14px;
     }
+
     .btn {
         font-size: 11px;
     }
 
-    
+
 
 }
-    
+
 
 /* 
   480px and down
@@ -204,7 +249,9 @@ div.box a {
     .column {
         width: 100%;
     }
-    .column1 , .column2 {
+
+    .column1,
+    .column2 {
         width: 100%;
     }
 
