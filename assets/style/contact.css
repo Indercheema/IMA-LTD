@@ -154,12 +154,12 @@ div.wrapper {
     height: 80%;
 }
 
-h1 {
+.wrapper h1 {
     color: #6533cb;
     margin-left: 20px;
 }
 
-p {
+.wrapper p {
     color: #fff;
     margin-left: 20px;
 }
