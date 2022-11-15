@@ -160,7 +160,7 @@ img {
     width: 100%;
     height: 300px;
     border-radius: 6px;
-    background-size: container;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -215,6 +215,9 @@ div.banner-text > h2 {
     text-underline-position: under;
 }
 
+
+
+
 /* -------------------------------*/
 /* Media Query                    */
 /* -------------------------------*/
@@ -236,14 +239,14 @@ div.banner-text > h2 {
   980px and down
 */
 
-@media (max-width: 980px) {
+/* @media (max-width: 980px) {
 
     .column1,
     .column2 {
         width: 100%;
     }
 
-}
+} */
 
 
 /* 
@@ -264,21 +267,8 @@ div.banner-text > h2 {
     }
 
     .btn {
-        font-size: 11px;
-    }
-
-    .box>h2 {
-        font-size: 22px;
-    }
-
-    .box>p {
         font-size: 14px;
     }
-
-    .btn {
-        font-size: 11px;
-    }
-
 
 
 }
