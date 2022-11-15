@@ -150,17 +150,19 @@ div .title p {
 div.wrapper {
     width: 400px;
     margin-inline: auto;
+    margin-top: 40px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     height: 80%;
 }
 
 .wrapper h1 {
-    color: #6533cb;
+    color: var(--app-dark-bg);
+    text-decoration: underline #baa600;
     margin-left: 20px;
 }
 
 .wrapper p {
-    color: #fff;
+    color: rgba(26, 29, 40, 0.5);
     margin-left: 20px;
 }
 
@@ -178,7 +180,20 @@ input+input {
     margin-top: 10px;
 }
 
-
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    height: 92px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: rgba(26, 29, 40, 0.5);
+    resize: none;
+    border: 1px solid rgba(206, 183, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
+    border-radius: 5px;
+}
 
 input[type="text"],
 input[type="email"] {
@@ -212,6 +227,7 @@ input:focus {
 input[type="button"] {
     width: 120px;
     height: 46px;
+    margin-top: 10px;
     text-align: center;
     background-color: var(--app-golden);
     border: 1px solid var(--app-golden);
