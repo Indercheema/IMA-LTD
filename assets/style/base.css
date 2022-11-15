@@ -152,14 +152,18 @@ div .title p {
 
     .bar-menu {
         display: block;
-        justify-content: right;
+        text-align: right;
+        font-size: 22px;
+        margin-top: 15px;
+        width: 200px;
     }
     .full-menu {
         display: none;
     }
 
     .heading h1 {
-        font-size: 14px;
+        font-size: 12px;
+        width: 400px;
     }
 
 }
@@ -171,7 +175,7 @@ div .title p {
 */
 
 @media (max-width: 768px) {
-    .title h1 {
+    .heading h1 {
         font-size: 16px;
         font-weight: 600
     }
@@ -190,8 +194,8 @@ nav ul li a  {
 */
 
 @media (max-width: 480px) {
-    .title h1 {
-        font-size: 14px;
+    .heading h1 {
+        font-size: 22px;
         font-weight: 600
     }
 
@@ -199,5 +203,13 @@ nav ul li a  {
     font-size: 14px;
     font-weight: 600
 }
+
+.column-text {
+    font-size: 52px;
+}
+
+
+
+
 
 }
