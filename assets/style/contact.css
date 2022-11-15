@@ -314,3 +314,55 @@ input[type="button"]:hover {
 ul {
     list-style: none;
 }
+
+/* -----------------------------------FOOTER-------------------------------------- */
+
+footer {
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -26px 30px -10px, rgba(0, 0, 0, 0.1) 0px -16px 10px -10px;
+
+}
+
+.footer-nav {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translateX(-10px);
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li {
+    color: #f0f2f4;
+    list-style: none;
+}
+
+footer ul li+li {
+    margin-left: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #898a92;
+    transition: color 0.25s ease-in-out;
+}
+
+.twitter:hover {
+    color: #00acee;
+}
+
+.github:hover {
+    color: #000000;
+}
+
+.linkedin:hover {
+    color: #0e76a8;
+}
