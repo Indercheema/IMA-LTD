@@ -163,11 +163,14 @@ div.wrapper {
 .wrapper h1 {
     color: var(--app-dark-bg);
     text-decoration: underline #baa600;
+    text-underline-offset: 2px;
+    text-underline-position: under;
     margin-left: 20px;
 }
 
 .wrapper p {
     color: rgba(26, 29, 40, 0.5);
+    margin-top: 4px;
     margin-left: 20px;
 }
 
@@ -275,4 +278,39 @@ input[type="button"]:hover {
     background-color: var(--app-primary);
     transform: translatey(3px);
     color: #fafafa;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    background-color: #f1f2f3;
+}
+
+.contact-info div {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.map {
+    display: flex;
+    margin-left: 40px;
+}
+
+.c-info h2 {
+    text-decoration: underline #baa600;
+    text-underline-offset: 2px;
+    text-underline-position: under;
+}
+
+.c-info p+h2 {
+    margin-top: 20px;
+}
+
+.c-info ul+h2 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
 }
