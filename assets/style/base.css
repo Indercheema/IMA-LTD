@@ -141,3 +141,63 @@ div .title h1 {
 div .title p {
     font-size: 25px;
 }
+
+/* -------------------------------*/
+/*  Media queries                 */
+/* -------------------------------*/
+
+/*  mobile menu                   */
+
+@media (max-width: 670px) {
+
+    .bar-menu {
+        display: block;
+        justify-content: right;
+    }
+    .full-menu {
+        display: none;
+    }
+
+    .heading h1 {
+        font-size: 14px;
+    }
+
+}
+
+
+
+/* 
+  768px and down
+*/
+
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 16px;
+        font-weight: 600
+    }
+
+nav ul li a  {
+    font-size: 16px;
+    font-weight: 600
+}
+
+
+}
+    
+
+/* 
+  480px and down
+*/
+
+@media (max-width: 480px) {
+    .title h1 {
+        font-size: 14px;
+        font-weight: 600
+    }
+
+nav ul li a  {
+    font-size: 14px;
+    font-weight: 600
+}
+
+}
