@@ -282,6 +282,7 @@ input[type="button"]:hover {
 }
 
 .contact-info {
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin-top: 40px;
@@ -291,11 +292,19 @@ input[type="button"]:hover {
 .contact-info div {
     margin-left: 60px;
     margin-top: 20px;
+    padding: 20px;
 }
 
 .map {
     display: flex;
-    margin-left: 40px;
+    width: 50%;
+    justify-content: center;
+}
+
+.c-info {
+    width: 50%;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .c-info h2 {
@@ -366,4 +375,48 @@ footer ul li a {
 
 .linkedin:hover {
     color: #0e76a8;
+}
+
+/* ----------------------------------------------- */
+/*               Media quiries                     */
+/* ----------------------------------------------- */
+
+@media screen and (max-width: 1281px) {
+    .map {
+        width: calc(50% - 10px)
+    }
+
+    .c-info {
+        width: calc(50% - 10px)
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .contact-info {
+        display: block;
+    }
+
+    .map {
+        min-width: 100%;
+        margin-right: 10px;
+    }
+
+    .c-info {
+        min-width: 100%
+    }
+
+    iframe {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .map {
+        width: 100%
+    }
+
+    .c-info {
+        width: 100%
+    }
 }
